@@ -1,0 +1,14 @@
+name: uday kiran
+
+on:
+  push:
+    branches: [ main ]
+
+
+jobs:
+  demo:
+    runs-on: ubunru-latest
+
+    steps:
+      - name: gretings
+        run: echo "hello from uday"
